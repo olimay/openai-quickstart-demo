@@ -1,3 +1,20 @@
+## Local setup
+
+I installed the pet name generator with the following commands:
+
+```bash
+$ conda create --name first-pet-generator python=3.9
+$ conda activate first-pet-generator
+$ pip install -r requirements.txt
+$ flask run
+```
+
+I've used conda instead of venv, which is what is suggested by OpenAI.
+
+What follows are their original instructions that I did not follow:
+
+---
+
 # OpenAI API Quickstart - Python example app
 
 This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. Check out the tutorial or follow the instructions below to get set up.
